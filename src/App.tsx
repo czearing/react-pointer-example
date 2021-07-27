@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles.css";
 import { on } from "@fluentui/utilities";
 
 export default function App() {
@@ -39,7 +38,11 @@ export default function App() {
 
   return (
     <div className="App">
-      <div className="test" onPointerDown={onPointerDown} style={circleStyle} />
+      <div
+        className="Square"
+        onPointerDown={onPointerDown}
+        style={circleStyle}
+      />
     </div>
   );
 }
