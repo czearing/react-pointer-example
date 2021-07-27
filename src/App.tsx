@@ -13,7 +13,7 @@ export default function App() {
     });
   };
 
-  const onPointerUp = (ev) => {
+  const onPointerUp = () => {
     disposables.current.forEach((dispose) => dispose());
     disposables.current = [];
   };
